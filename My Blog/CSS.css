@@ -1,11 +1,14 @@
-body{ margin-left: 20px;
-    background-color: #088119 ;
+body{
+    background-color: rgb(22, 73, 131);
     color: aliceblue;
     font-size: large;
 }
+main{
+    margin: 5%;
+}
  #align{
-     margin: 0px!important;
+     margin: -8px -5px 0px -8px;
      text-align: center;
      padding-top: 20px;
-     background-color:red;
+     background-color:rgb(121, 14, 97);
     }

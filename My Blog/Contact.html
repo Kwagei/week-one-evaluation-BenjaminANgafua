@@ -6,22 +6,36 @@
         
         <title>Contact</title>
         <style>
-            #div{
+            div{
                 border-radius: 50px;
                 background: rgb(255, 0, 234);
                 padding: 20px 50px 60px 50px;
-                margin: 100px 580px 100px 300px;
+                margin: 10px 430px 100px 420px;
+
             }
             bodY{
-                background-image:url(CITY.jpg);
+                background-image:url(back.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
                 text-decoration: none;
+                margin-top: 5%;
             }
-
+            #input{
+                background:blue;
+                color: white;
+                border-radius: 6%;
+                font-size: 20px;
+                margin: 2%;
+                font-family: Impact, sans-serif;
+                text-align: center;
+                width: 60%;
+            }
 
         </style>
     </head>
     <body>
-        <div id="div">
+        <a href="../profolio/portfolio.html" style="text-decoration: none; color: chartreuse; float: left; margin-left: 20%;"> <strong>My Portfolio</strong> </a>
+        <div>
         <header style="text-align: center;">
             <h1>Contact Me</h1>
             <p>Duport Road <br> Monrovia-Liberia</p>
@@ -69,11 +83,8 @@
                     </tbody>
                 </table>
             </form>
-            <textarea style="border-radius:10px;" name="name" cols="30" rows="10"></textarea>
-                <input style="background:gray; border-radius: 30px; font-size: 20px; font-family:cursive;" type="submit" name="submit" value="submit">
+            <textarea style="border-radius:10px;" name="name" cols="30" rows="10"></textarea> <br>
+                <input id="input" type="submit" name="submit" value="submit">
         </div>
-    <footer>
-        <a href="../My Profolio/Portfolio.html">My Portfolio</a>
-    </footer>
     </body>
 </html>
